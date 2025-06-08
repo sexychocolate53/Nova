@@ -1,10 +1,6 @@
 import streamlit as st
 import requests
-from PIL import Image
 
-# Display avatar
-nova_avatar = Image.open("images/nova.png")  # Make sure this image exists in your project
-st.image(nova_avatar, caption="Meet Nova – Your Digital Strategy Agent", use_column_width=False, width=150)
 
 st.markdown("### 👩🏽‍💻 Meet Nova – Your Lead Magnet & Email Specialist")
 st.markdown("""
